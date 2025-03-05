@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de Vida - Antonio Molina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('imagen17.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        header {
+            background: #6A0DAD;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            animation: fadeIn 2s ease-in;
+        }
+
+        nav {
+            background: #1E1B4B;
+            text-align: center;
+            animation: slideDown 1.5s ease-in-out;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 5px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 20px;
+            background: #3A5BA0;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            background-color: yellow;
+            color: black;
+            transform: scale(1.1);
+            box-shadow: 0px 4px 10px rgba(255, 255, 0, 0.5);
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            padding: 20px;
+            gap: 20px;
+            animation: fadeIn 2s ease-in;
+        }
+
+        .left-column, .right-column {
+            background: rgba(211, 211, 211, 0.8);
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .image-container img {
+            width: 100%;
+            max-width: 150px;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.5);
+        }
+
+        .main-text {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            color: #333;
+            text-align: justify;
+        }
+
+        .subtitle {
+            font-size: 30px;
+            font-weight: bold;
+            color: #1E1B4B;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background: #1E1B4B;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 18px;
+            animation: fadeIn 3s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Proyecto de Vida - Antonio Molina</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="VisiónMisión.html">Visión/Misión</a></li>
+                <li><a href="ValoresPrincipiosCreencias.html">Valores/Principios/Creencias</a></li>
+                <li><a href="Areas Prioritarias.html">Áreas prioritarias</a></li>
+                <li><a href="MetasEstrategias.html">Metas/Estrategias</a></li>
+                <li><a href="ValoresCiudadanos.html">Valores ciudadanos</a></li>
+                <li><a href="Aliados.html">Aliados</a></li>
+                <li><a href="InventarioCronograma.html">Inventario de vida/Cronograma</a></li>
+                <li><a href="Autobiografia.html">Autobiografía/Collage</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="left-column">
+            <p><strong>Foto</strong></p>
+            <div class="image-container">
+                <img src="imagen24.jpeg" alt="Imagen 1">
+            </div>
+            <div class="image-container">
+                <img src="imagen25.jpeg" alt="Imagen 2">
+            </div>
+        </div>
+
+        <div class="main-text">
+            <h3 class="subtitle">Inventario de vida</h3>
+            <p>Salud: Tengo alergias y he recibido diversas vacunas. Me han tratado con antihistamínicos y antibióticos en algunas ocasiones.
+                <br>
+                Educación: He estudiado en el Colegio Lehnsen y he logrado premios en robótica y matemáticas. Las materias de números y programación se me facilitan, pero las de lectura y ciencias sociales me cuestan más.
+                <br>
+                Objetos especiales: Mi mantita de niño, videojuegos, colecciones de juguetes, medallas y mangas.
+                <br>
+                Lugares visitados: He viajado a Petén, El Salvador, Panajachel y otros lugares. Sueño con conocer Europa y Asia.
+                <br>
+                Comida y bebidas favoritas: Me encantan las hamburguesas, el pollo en crema y las papas fritas. Mis bebidas favoritas son Canada Dry y Mountain Dew.</p>
+        </div>
+
+        <div class="right-column">
+            <h3 class="subtitle">Cronograma</h3>
+            <div class="image-container">
+                <img src="cronograma.jpg" alt="Cronograma de vida">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>@ 2025 Proyecto de Vida - Antonio Molina</p>
+    </footer>
+</body>
+</html>

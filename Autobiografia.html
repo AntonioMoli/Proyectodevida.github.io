@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de Vida - Antonio Molina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('imagen18.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        header {
+            background: #6A0DAD;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            animation: fadeIn 2s ease-in;
+        }
+
+        nav {
+            background: #1E1B4B;
+            text-align: center;
+            animation: slideDown 1.5s ease-in-out;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 5px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 20px;
+            background: #3A5BA0;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            background-color: yellow;
+            color: black;
+            transform: scale(1.1);
+            box-shadow: 0px 4px 10px rgba(255, 255, 0, 0.5);
+        }
+
+        main {
+            padding: 20px;
+            animation: fadeIn 2s ease-in;
+            text-align: center;
+        }
+
+        .content-section {
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 80%;
+            text-align: justify;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        .content-section h2 {
+            font-size: 30px;
+            font-weight: bold;
+            color: #1E1B4B;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .image-container img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background: #1E1B4B;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 18px;
+            animation: fadeIn 3s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Proyecto de Vida - Antonio Molina</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="VisiónMisión.html">Visión/Misión</a></li>
+                <li><a href="ValoresPrincipiosCreencias.html">Valores/Principios/Creencias</a></li>
+                <li><a href="Areas Prioritarias.html">Áreas prioritarias</a></li>
+                <li><a href="MetasEstrategias.html">Metas/Estrategias</a></li>
+                <li><a href="ValoresCiudadanos.html">Valores ciudadanos</a></li>
+                <li><a href="Aliados.html">Aliados</a></li>
+                <li><a href="InventarioCronograma.html">Inventario de vida/Cronograma</a></li>
+                <li><a href="Autobiografia.html">Autobiografía/Collage</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content-section">
+            <h2>Autobiografía</h2>
+                <p>Bebé (0-2 años)
+                Nací el 22 de octubre de 2007 por cesárea. Desde el primer día mostré mi personalidad: no me gustaba la leche de fórmula y prefería estar en un
+                 columpio con luces y sonidos de la naturaleza. Mi primera palabra la dije sin balbuceos previos, lo que sorprendió a mi familia. Un dato curioso es que el 
+                 gorrito del hospital no me quedaba porque era "cabezón".
+                 <br>
+                Niñez (3-10 años)
+                Desde pequeño, tuve gustos muy marcados. A los 3 años, me encantaba cantar canciones de Vicente Fernández. A los 4, intenté ir al colegio, pero me sacaron porque
+                 lloraba mucho. A los 6, comencé a jugar fútbol y fui capitán de mi equipo, pero eventualmente lo dejé. A los 8, hice mi primera comunión y viví momentos inolvidables 
+                 en un retiro con mis amigos. A los 9, tuve una experiencia aterradora cruzando puentes colgantes en Petén y, por los nervios, mordí a mi hermano sin darme cuenta.
+                 <br>
+                Adolescencia (11 en adelante)
+                Durante mi adolescencia, me he enfocado en mi pasión por la tecnología y la programación. También he aprendido a manejar mis finanzas y a valorar aún más a mi 
+                familia y amigos. Uno de mis sueños es viajar por el mundo y tener mi propia empresa en el ámbito de la programación. Sigo trabajando día a día para alcanzar mis
+                 metas y convertirme en la mejor versión de mí mismo.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Collage</h2>
+            <div class="image-container">
+                <img src="collage.jpg" alt="Imagen representativa 1">
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>@ 2025 Proyecto de Vida - Antonio Molina</p>
+    </footer>
+</body>
+</html>

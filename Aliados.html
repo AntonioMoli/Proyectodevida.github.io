@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de Vida - Antonio Molina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('imagen15.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            color: black;
+            animation: fadeInBackground 2s ease-in-out;
+        }
+
+        @keyframes fadeInBackground {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        header {
+            background: #6A0DAD;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            animation: slideDown 1.5s ease-in-out;
+        }
+
+        nav {
+            background: #1E1B4B;
+            text-align: center;
+            padding: 10px 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 5px;
+            animation: zoomIn 1.5s ease-in-out;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 20px;
+            background: #3A5BA0;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+            font-size: 14px;
+        }
+
+        nav ul li a:hover {
+            background-color: yellow;
+            color: black;
+            transform: scale(1.1);
+            box-shadow: 0px 4px 10px rgba(255, 255, 0, 0.5);
+        }
+
+        .main-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background: rgba(240, 240, 240, 0.9);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .left, .center, .right {
+            background: #d3d3d3;
+            padding: 40px;
+            border-radius: 10px;
+            opacity: 0;
+            animation: fadeInUp 1.5s ease-in-out forwards;
+            flex: 1;
+            margin: 10px;
+        }
+
+        .left { animation-delay: 0.5s; }
+        .center { animation-delay: 1s; }
+        .right { animation-delay: 1.5s; }
+
+        footer {
+            background: #1E1B4B;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 18px;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        @keyframes zoomIn {
+            from { transform: scale(0.8); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
+        .center img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Proyecto de Vida - Antonio Molina</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="VisiónMisión.html">Visión/Misión</a></li>
+                <li><a href="ValoresPrincipiosCreencias.html">Valores/Principios/Creencias</a></li>
+                <li><a href="Areas Prioritarias.html">Áreas prioritarias</a></li>
+                <li><a href="MetasEstrategias.html">Metas/Estrategias</a></li>
+                <li><a href="ValoresCiudadanos.html">Valores ciudadanos</a></li>
+                <li><a href="Aliados.html">Aliados</a></li>
+                <li><a href="InventarioCronograma.html">Inventario de vida/Cronograma</a></li>
+                <li><a href="Autobiografia.html">Autobiografía/Collage</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <div class="left">
+            <h2>Aliados</h2>
+            <p>Dios, quien me da fuerza y guía.
+                <br>
+                Mi familia, el pilar más importante en mi vida.
+                <br>
+                Mis maestros, que me han brindado conocimientos y motivación.
+                <br>
+                Mi institución educativa, que ha sido el espacio de crecimiento académico y personal.
+                <br>
+                Mis amistades, que son como una segunda familia para mí.
+                
+                .</p>
+        </div>
+        <div class="center">
+            <h2>Foto</h2>
+            <img src="imagen16.jpeg" alt="Imagen del proyecto">
+        </div>
+        <div class="right">
+            <h2>Datos extras</h2>
+            <li>Mi signo de "lo logré" es un kanji de Dragon Ball y el de "no lo logré" es la nube voladora de Gokú.</li>
+            <li>De pequeño, me daba miedo la mascota de Pizza Hut y lloré tanto que la sacaron de mi fiesta de cumpleaños.</li>
+            <li>Cuando era niño, mi mamá me convenció de ir al colegio diciéndome que, si no iba, se la llevarían presa.
+    
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Proyecto de Vida - Antonio Molina</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de Vida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('foto5.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        header {
+            background: #6A0DAD;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            animation: fadeIn 2s ease-in;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            background: #1E1B4B;
+            text-align: center;
+            animation: slideDown 1.5s ease-in-out;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 5px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 20px;
+            background: #3A5BA0;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            background-color: yellow;
+            color: black;
+            transform: scale(1.1);
+            box-shadow: 0px 4px 10px rgba(255, 255, 0, 0.5);
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            color: black;
+            flex-wrap: wrap;
+            animation: fadeIn 2s ease-in;
+        }
+
+        .left-column, .right-column {
+            width: 20%;
+            background: rgba(211, 211, 211, 0.8);
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .image-container {
+            margin: 10px 0;
+        }
+
+        .image-container img {
+            width: 100%;
+            max-width: 150px;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.5);
+        }
+
+        .main-text {
+            width: 55%;
+            text-align: justify;
+            font-size: 20px;
+            color: #333;
+            margin: 0 auto;
+        }
+
+        .subtitle {
+            font-size: 30px;
+            font-weight: bold;
+            color: #1E1B4B;
+            text-align: center;
+            margin-bottom: 20px;
+            opacity: 1;
+        }
+
+        footer {
+            background: #1E1B4B;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 18px;
+            animation: fadeIn 3s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Proyecto de Vida - Antonio Molina</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="VisiónMisión.html">Visión/Misión</a></li>
+                <li><a href="ValoresPrincipiosCreencias.html">Valores/Principios/Creencias</a></li>
+                <li><a href="Areas Prioritarias.html">Áreas prioritarias</a></li>
+                <li><a href="MetasEstrategias.html">Metas/Estrategias</a></li>
+                <li><a href="ValoresCiudadanos.html">Valores ciudadanos</a></li>
+                <li><a href="Aliados.html">Aliados</a></li>
+                <li><a href="InventarioCronograma.html">Inventario de vida/Cronograma</a></li>
+                <li><a href="Autobiografia.html">Autobiografía/Collage</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="left-column">
+                <p><strong>Fotos</strong></p>
+                <div class="image-container">
+                    <img src="foto4.jpg" alt="Imagen 1">
+                </div>
+                <div class="image-container">
+                    <img src="foto6.jpg" alt="Imagen 2">
+                </div>
+            </div>
+
+            <div class="main-text">
+                <h3 class="subtitle">Mi Proyecto de Vida</h3>
+                <p>Mi proyecto de vida es una representación de quién soy, de dónde vengo y hacia dónde quiero ir. A lo largo de los años, he construido mi identidad a partir de mis 
+                    experiencias, aprendizajes y valores. Cada etapa de mi vida ha dejado huellas significativas que me han moldeado como persona, desde mi infancia y educación
+                     hasta los desafíos y logros que he enfrentado. En este proyecto reflexiono sobre mi pasado, reconociendo las experiencias que han marcado mi camino y me 
+                     han enseñado lecciones valiosas. Momentos de alegría, dificultades superadas, personas que han influido en mi crecimiento y decisiones que han definido mi 
+                     rumbo. Todo esto forma parte de la historia que me ha llevado a convertirme en la persona que soy hoy. Al mismo tiempo, miro hacia el futuro con determinación, 
+                     estableciendo metas claras y diseñando estrategias para alcanzarlas. No se trata solo de sueños y aspiraciones, sino de un compromiso personal con mi crecimiento
+                      y desarrollo. Sé que cada meta requiere esfuerzo, constancia y dedicación, por lo que es fundamental mantener la disciplina y la motivación a lo largo del
+                       camino. Para lograr mis objetivos, he definido principios y valores que guiarán mis decisiones. La honestidad, la responsabilidad, el respeto y la
+                        perseverancia son pilares fundamentales en mi vida y serán la base de cada paso que dé en mi camino. También he identificado las estrategias concretas que me
+                         permitirán superar los obstáculos que puedan surgir, porque sé que el camino hacia mis sueños no siempre será fácil. Sin embargo, estoy convencido de que con
+                          esfuerzo, perseverancia y una visión clara, puedo construir la vida que deseo y convertirme en la mejor versión de mí mismo. Este proyecto de vida no es
+                           solo un documento, sino una guía que me permitirá mantener el enfoque en mis metas, recordando siempre quién soy, lo que me motiva y el propósito que me
+                            impulsa a seguir adelante. Este es el inicio de una travesía llena de aprendizaje, crecimiento y logros. Con cada paso que dé, seguiré construyendo mi 
+                            historia, enfrentando cada reto con valentía y manteniendo siempre la mirada fija en el futuro que quiero alcanzar.</p>
+                            </div>
+
+            <div class="right-column">
+                <h3 class="subtitle">Datos Extra</h3>
+                <ul>
+                    <li>Nací un 22 de Octubre de 2007</li>
+                    <li>Me llamo Estuardo Antonio Molina Donis</li>
+                    <li>Me llaman Toño como apodo</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>@ 2025 Proyecto de Vida - Antonio Molina</p>
+    </footer>
+</body>
+</html>

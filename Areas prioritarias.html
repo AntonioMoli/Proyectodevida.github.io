@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de Vida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('imagen12.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        header {
+            background: #6A0DAD;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            animation: fadeIn 2s ease-in;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            background: #1E1B4B;
+            text-align: center;
+            margin: 0;
+            animation: slideDown 1.5s ease-in-out;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 5px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 20px;
+            background: #3A5BA0;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            background-color: yellow;
+            color: black;
+            transform: scale(1.1);
+            box-shadow: 0px 4px 10px rgba(255, 255, 0, 0.5);
+        }
+
+        .main-container {
+            display: grid;
+            grid-template-columns: 20% 60% 20%;
+            gap: 10px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            color: black;
+            border-radius: 10px;
+            margin: 20px;
+            animation: fadeIn 2s ease-in;
+        }
+
+        .left, .right {
+            background: rgba(211, 211, 211, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .left img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .center {
+            padding: 20px;
+            background: rgba(211, 211, 211, 0.8);
+            border-radius: 10px;
+            text-align: justify;
+        }
+
+        .right ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .right ul li {
+            margin: 10px 0;
+        }
+
+        footer {
+            background: #1E1B4B;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 18px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Proyecto de Vida Antonio Molina</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="VisiónMisión.html">Visión/Misión</a></li>
+                <li><a href="ValoresPrincipiosCreencias.html">Valores/Principios/Creencias</a></li>
+                <li><a href="Areas Prioritarias.html">Áreas prioritarias</a></li>
+                <li><a href="MetasEstrategias.html">Metas/Estrategias</a></li>
+                <li><a href="ValoresCiudadanos.html">Valores ciudadanos</a></li>
+                <li><a href="Aliados.html">Aliados</a></li>
+                <li><a href="InventarioCronograma.html">Inventario de vida/Cronograma</a></li>
+                <li><a href="Autobiografia.html">Autobiografía/Collage</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <div class="left">
+            <img src="imagen20.jpeg" alt="Imagen del proyecto">
+            <img src="imagen21.jpeg" alt="Otra imagen del proyecto">
+        </div>
+
+        <div class="center">
+            <h2>Áreas prioritarias</h2>
+            <p><strong>Espiritual:</strong> Fortalecer mi relación con Dios a través de la oración frecuente y actos solidarios para ayudar a quienes lo necesiten.</p>
+            <p><strong>Familiar:</strong> Fortalecer los lazos familiares, asistir a reuniones, organizar actividades juntos y demostrar mi agradecimiento con gestos significativos.</p>
+            <p><strong>Amistad:</strong> Valorar y cuidar mis amistades actuales mientras me abro a conocer nuevas personas, manteniendo siempre la comunicación y el apoyo mutuo.</p>
+            <p><strong>Profesional:</strong> Destacar en el área de programación, crear mi propia empresa y buscar la estabilidad laboral en un trabajo remoto para mayor comodidad.</p>
+            <p><strong>Salud:</strong> Cuidar mi bienestar físico y mental con chequeos médicos regulares, una alimentación equilibrada y una rutina de ejercicio constante.</p>
+            <p><strong>Económica:</strong> Mantener un presupuesto mensual, ahorrar regularmente y construir una base financiera sólida para emprender mi propio negocio.</p>
+        </div>
+
+        <div class="right">
+            <h2>Datos extra</h2>
+            <ol>
+                <li>Valores fundamentales: respeto, honestidad, responsabilidad y empatía.</li>
+                <li>Pasiones: fútbol, programación y videojuegos.</li>
+                <li>Meta a largo plazo: crear una empresa tecnológica y ser referente en programación.</li>
+                <li>Deseo viajar a Europa y Asia en el futuro.</li>
+                <li>Enfocado en el equilibrio entre trabajo, salud y vida personal.</li>
+            </ol>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Antonio Molina - Proyecto de Vida</p>
+    </footer>
+</body>
+</html>

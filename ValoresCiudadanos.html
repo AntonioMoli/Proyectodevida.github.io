@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de Vida - Antonio Molina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('imagen13.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        header {
+            background: #6A0DAD;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            animation: fadeIn 2s ease-in;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            background: #1E1B4B;
+            text-align: center;
+            animation: slideDown 1.5s ease-in-out;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 5px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 20px;
+            background: #3A5BA0;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            background-color: yellow;
+            color: black;
+            transform: scale(1.1);
+            box-shadow: 0px 4px 10px rgba(255, 255, 0, 0.5);
+        }
+
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9);
+            color: black;
+        }
+
+        .subtitle {
+            font-size: 30px;
+            font-weight: bold;
+            color: #1E1B4B;
+            margin-bottom: 20px;
+        }
+
+        .content-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background: rgba(240, 240, 240, 0.9);
+        }
+
+        .content-box {
+            flex: 1;
+            margin: 0 10px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .content-box img {
+            max-width: 100%;
+            border-radius: 10px;
+            transition: transform 0.5s ease;
+        }
+
+        .content-box img:hover {
+            transform: scale(1.2);
+        }
+
+        footer {
+            background: #1E1B4B;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 18px;
+            animation: fadeIn 3s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Proyecto de Vida - Antonio Molina</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="VisiónMisión.html">Visión/Misión</a></li>
+                <li><a href="ValoresPrincipiosCreencias.html">Valores/Principios/Creencias</a></li>
+                <li><a href="Areas Prioritarias.html">Áreas prioritarias</a></li>
+                <li><a href="MetasEstrategias.html">Metas/Estrategias</a></li>
+                <li><a href="ValoresCiudadanos.html">Valores ciudadanos</a></li>
+                <li><a href="Aliados.html">Aliados</a></li>
+                <li><a href="InventarioCronograma.html">Inventario de vida/Cronograma</a></li>
+                <li><a href="Autobiografia.html">Autobiografía/Collage</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section">
+        <h2 class="subtitle">Valores Ciudadanos</h2>
+        <p>Los valores son la base de mi comportamiento y me guían en mi vida diaria. Los más importantes para mí son:
+<br>
+            Responsabilidad: Cumplir con mis obligaciones y asumir las consecuencias de mis actos.
+            <Br>        
+            Honestidad: Ser sincero en todo momento, tanto conmigo mismo como con los demás.
+            <br>
+            Respeto: Valorar a todas las personas, independientemente de sus diferencias.
+            <br>
+            Solidaridad: Ayudar a los demás sin esperar algo a cambio.
+            <br>
+            Amabilidad y Tolerancia: Ser cortés con los demás y aceptar diferentes puntos de vista.
+            <br>
+            Civismo y Patriotismo: Respetar las normas y contribuir al bienestar de mi país.
+            <br>
+            Empatía y Equidad: Comprender a los demás y promover la igualdad de oportunidades.</p>
+    </section>
+
+    <div class="content-container">
+        <div class="content-box">
+            <h3>Foto 1</h3>
+            <img src="imagen17.jpeg" alt="Foto 1">
+        </div>
+        <div class="content-box">
+            <h3>Foto 2</h3>
+            <img src="imagen23.jpeg" alt="Foto 2">
+        </div>
+    </div>
+
+    <section class="section">
+        <h2 class="subtitle">Datos Extras</h2>
+        <li>De bebé, no me dormía si mi papá no me llevaba a dar una vuelta en el carro.</li>
+        <li>Mi caricatura favorita era Doki, y le puse ese nombre a mi perro.</li>
+        <li>En un viaje, mi familia pensó que podían secuestrarnos y me escondieron entre las maletas.
+
+        </li>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Proyecto de Vida - Antonio Molina</p>
+    </footer>
+</body>
+</html>

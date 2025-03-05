@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de Vida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('foto8.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        header {
+            background: #6A0DAD;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            animation: fadeIn 2s ease-in;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            background: #1E1B4B;
+            text-align: center;
+            animation: slideDown 1.5s ease-in-out;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 5px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 20px;
+            background: #3A5BA0;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            background-color: yellow;
+            color: black;
+            transform: scale(1.1);
+            box-shadow: 0px 4px 10px rgba(255, 255, 0, 0.5);
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            color: black;
+            border-radius: 10px;
+            margin: 20px;
+            animation: fadeIn 2s ease-in;
+        }
+
+        .column {
+            width: 30%;
+            padding: 20px;
+            background: rgba(211, 211, 211, 0.8);
+            border-radius: 10px;
+            text-align: justify;
+        }
+
+        .center-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 30%;
+        }
+
+        .image-container {
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.5);
+        }
+
+        footer {
+            background: #1E1B4B;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 18px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Proyecto de Vida Antonio Molina</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="VisiónMisión.html">Visión/Misión</a></li>
+                <li><a href="ValoresPrincipiosCreencias.html">Valores/Principios/Creencias</a></li>
+                <li><a href="Areas Prioritarias.html">Áreas prioritarias</a></li>
+                <li><a href="MetasEstrategias.html">Metas/Estrategias</a></li>
+                <li><a href="ValoresCiudadanos.html">Valores ciudadanos</a></li>
+                <li><a href="Aliados.html">Aliados</a></li>
+                <li><a href="InventarioCronograma.html">Inventario de vida/Cronograma</a></li>
+                <li><a href="Autobiografia.html">Autobiografía/Collage</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="column">
+            <h2>Visión</h2>
+            <p>La fe es una parte esencial de mi vida, ya que me permite crecer como persona y encontrar paz interior. Aunque no planeo asistir regularmente a la iglesia, deseo 
+                mantener una relación cercana con Dios a través de la oración y actos solidarios, demostrando mi fe con acciones concretas.
+                <br>
+                La familia es uno de los pilares más importantes para mí. Quiero fortalecer los lazos familiares, pasar tiempo de calidad con ellos y demostrar mi agradecimiento 
+                organizando actividades juntos, ofreciéndoles apoyo y asegurándome de estar presente cuando me necesiten.
+                <br>
+                Valoro profundamente mis amistades y deseo mantener las relaciones que he construido desde la infancia, a pesar de las obligaciones futuras. Espero continuar en 
+                contacto con mis amigos y crear nuevas amistades a lo largo de mi vida, ya que considero que las verdaderas amistades son fundamentales para mi bienestar emocional.
+                <br>
+                En mi vida profesional, aspiro a ser de los mejores en mi especialidad como programador. Deseo construir una carrera satisfactoria, trabajando desde casa para 
+                mayor comodidad, y eventualmente emprender mi propio negocio relacionado con la programación, como una empresa de videojuegos o de ciberseguridad.
+                <br>
+                Mi salud física y mental es una prioridad, ya que es fundamental para alcanzar mis metas. Me comprometo a mejorar mi alimentación, aumentar mi actividad 
+                física y realizar chequeos médicos regulares. También considero esencial cuidar mi salud mental, buscando apoyo profesional si lo necesito.
+                <br>
+                Aspiro a tener una economía estable que me permita disfrutar de la vida y ofrecer lo mejor a mis seres queridos. Planeo administrar mis finanzas de manera
+                 responsable, priorizando lo necesario, y eventualmente crear mi propio negocio para asegurar un futuro para estable que me permita disfrutar de la vida y ofrecer 
+                 lo mejor a mis seres queridos. Planeo administrar mis finanzas de manera responsable, priorizando lo necesario, y eventualmente crear mi propio negocio para asegurar
+                  un futuro próspero y cómodo.</p>
+        </div>
+
+        <div class="center-column">
+            <div class="image-container">
+                <img src="foto10.png" alt="Foto Personal">
+            </div>
+            <div class="image-container">
+                <img src="foto7.jpg" alt="Foto Inspiración">
+            </div>
+        </div>
+
+        <div class="column">
+            <h2>Misión</h2>
+            <p>Mi misión es acercarme más a Dios, mantener una relación estable con él a través de la oración y realizar actos solidarios que contribuyan al bienestar de quienes me
+                rodean.
+               <br>
+               Quiero fortalecer los lazos familiares valorando cada momento juntos, participando activamente en reuniones, mejorando la comunicación y brindando apoyo 
+               incondicional. Deseo mostrar mi agradecimiento a mi familia a través de gestos significativos como regalos y experiencias compartidas.
+               <br>
+               Me comprometo a mantener el contacto con mis amistades de la infancia, fomentando la comunicación y organizando encuentros para compartir tiempo de calidad. 
+               Además, deseo crear nuevas amistades valiosas, esforzándome por conocer a más personas y ampliar mi círculo social.
+               <br>
+               En el ámbito profesional, trabajaré con dedicación y esfuerzo para alcanzar mis metas como programador. Mi objetivo es obtener un trabajo desde casa que me permita
+                un equilibrio entre la vida personal y laboral, y en el futuro, emprender mi propio negocio para dejar una huella en el campo de la tecnología.
+               <br>
+               Priorizaré mi salud física y mental, adoptando hábitos saludables y buscando ayuda profesional cuando sea necesario. Me aseguraré de realizar controles 
+               médicos periódicos y mantener un estilo de vida que favorezca mi bienestar integral.
+               <br>
+               Administraré mis finanzas con responsabilidad para asegurar una economía estable y, eventualmente, emprender un negocio que me permita alcanzar la tranquilidad 
+               financiera y apoyar a mis seres queridos en sus necesidades y deseos.
+               <br>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Antonio Molina - Proyecto de Vida</p>
+    </footer>
+</body>
+</html>

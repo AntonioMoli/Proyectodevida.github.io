@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de Vida - Antonio Molina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('imagen14.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        header {
+            background: #6A0DAD;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            animation: fadeIn 2s ease-in;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            background: #1E1B4B;
+            text-align: center;
+            animation: slideDown 1.5s ease-in-out;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 5px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 20px;
+            background: #3A5BA0;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            background-color: yellow;
+            color: black;
+            transform: scale(1.1);
+            box-shadow: 0px 4px 10px rgba(255, 255, 0, 0.5);
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            color: black;
+            animation: fadeIn 2s ease-in;
+        }
+
+        .column {
+            background: rgba(211, 211, 211, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .center-column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .image-container {
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            width: 200px;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.5);
+        }
+
+        footer {
+            background: #1E1B4B;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 18px;
+            animation: fadeIn 3s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Proyecto de Vida - Antonio Molina</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="VisiónMisión.html">Visión/Misión</a></li>
+                <li><a href="ValoresPrincipiosCreencias.html">Valores/Principios/Creencias</a></li>
+                <li><a href="Areas Prioritarias.html">Áreas prioritarias</a></li>
+                <li><a href="MetasEstrategias.html">Metas/Estrategias</a></li>
+                <li><a href="ValoresCiudadanos.html">Valores ciudadanos</a></li>
+                <li><a href="Aliados.html">Aliados</a></li>
+                <li><a href="InventarioCronograma.html">Inventario de vida/Cronograma</a></li>
+                <li><a href="Autobiografia.html">Autobiografía/Collage</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div class="column">
+            <h2>Metas</h2>
+            <p>Mis metas están organizadas en distintas áreas: espiritual, familiar, amistad, profesional, salud y económica. A continuación, presento los objetivos que 
+                deseo alcanzar en cada una de ellas: En cada una, tengo objetivos a corto, mediano y largo plazo que me permitirán alcanzar el éxito y el bienestar en mi vida.
+                <br>
+                Profesional: Quiero convertirme en un programador exitoso y trabajar desde casa.  También planeo crear mi propia empresa en el futuro.
+                <Br>
+                Económica: Mi meta es tener estabilidad financiera, evitando deudas y administrando bien mis ingresos.
+                <br>
+                Salud: Quiero mejorar mi alimentación y hacer ejercicio regularmente.
+                <br>
+                Familiar y Amistades: Deseo fortalecer mis lazos familiares y conservar mis amistades a lo largo del tiempo.
+                <br>
+                Espiritual: Quiero fortalecer mi relación con Dios, orando con más frecuencia y realizando actos de solidaridad con quienes más lo necesitan.
+                
+                </p>
+        </div>
+
+        <div class="center-column">
+            <div class="image-container">
+                <img src="imagen22.jpeg" alt="Foto 1">
+            </div>
+            <div class="image-container">
+                <img src="imagen23.jpeg" alt="Foto 2">
+            </div>
+        </div>
+
+        <div class="column">
+            <h2>Estrategias</h2>
+            <p>Para alcanzar mis metas, implementaré estrategias específicas en cada área:
+                <br>
+                Profesional: Mejoraré mis conocimientos en programación mediante cursos, desarrollaré proyectos para mi portafolio y estableceré contactos en la industria.
+                <Br>
+                Económica: Crearé un presupuesto mensual, evitaré gastos innecesarios y buscaré oportunidades de inversión seguras.
+                <br>
+                Salud: Estableceré una rutina de ejercicio, reduciré el consumo de comida chatarra y acudiré a chequeos médicos regulares.
+                <br>
+                Familiar y Amistades: Fomentaré la comunicación, organizaré reuniones y actividades para fortalecer los lazos afectivos.
+                <Br>
+                Espiritual: Dedicaré tiempo a la oración, participaré en actos solidarios y buscaré fortalecer mi fe con acciones diarias.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Proyecto de Vida - Antonio Molina</p>
+    </footer>
+</body>
+</html>
